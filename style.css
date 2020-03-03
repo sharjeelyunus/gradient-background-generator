@@ -1,27 +1,138 @@
 body {
-	font: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+  font: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, red, yellow); /* Standard syntax */
 }
 
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    width: 100%;
+  font: 600 3.5em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 60px;
 }
 
 h3 {
-	font: 900 1em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: none;
-    letter-spacing: 0.01em;
+  font: 900 1em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
 
+.button {
+  font-size: large;
+  padding: 15px 30px;
+  border: 2px solid rgba(00, 00, 0, 0.5);
+  border-radius: 10px;
+}
+
+.button:hover {
+  color: rgb(233, 231, 231);
+  background: rgb(0, 184, 0);
+}
+
+.button:active {
+  color: silver;
+  background: teal;
+}
+
+div {
+  margin-top: 10px;
+}
+
+input {
+  width: 60px;
+  height: 27px;
+}
+
+.fa-facebook-square {
+  transition: color 600ms ease-in-out;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 19px;
+}
+
+.fa-facebook-square:hover {
+  color: #1d56d3;
+  background: none;
+}
+
+.fa-trash {
+  background: none;
+  transition: color 600ms ease-in-out;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 19px;
+}
+
+/* twitter */
+.fa-twitter-square {
+  transition: color 600ms ease-in-out;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 19px;
+}
+
+.fa-twitter-square:hover {
+  color: rgb(22, 142, 240);
+}
+
+.fa-instagram {
+  transition: color 600ms ease-in-out;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 19px;
+}
+
+.fa-instagram:hover {
+  color: #e63bd7;
+}
+
+.fa-github {
+  transition: color 600ms ease-in-out;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 19px;
+}
+
+.fa-github:hover {
+  color: #000000;
+}
+
+.fa-globe {
+  transition: color 600ms ease-in-out;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 19px;
+}
+
+.fa-globe:hover {
+  color: #0066b3;
+}
+
+footer {
+  padding: 10px 0;
+
+  color: rgba(3, 3, 3, 0.7);
+  opacity: 0.8;
+  font-size: 0.85em;
+  height: 80px;
+  margin-top: 90px;
+}
+
+footer a {
+  transition: 400ms;
+}
+
+footer a:hover {
+  color: #989898;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.7em;
+  }
 }
