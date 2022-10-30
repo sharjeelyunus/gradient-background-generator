@@ -5,18 +5,26 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5em;
   top: 15%;
-  background: linear-gradient(to right, red, yellow); /* Standard syntax */
+  background: linear-gradient(to right, red, yellow);
+  /* Standard syntax */
 }
 
 h1 {
+  font-family: "Arial Black", sans-serif;
+  font-size: 4.5em;
+  letter-spacing: -1px;
+  background-color: black;
+  color: white;
+  /*
   font: 600 3.5em "Raleway", sans-serif;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   width: 100%;
+  font-family: Great Vibes;
   margin-top: 35px;
-  margin-bottom: 60px;
+  margin-bottom: 60px;*/
 }
 
 h3 {
