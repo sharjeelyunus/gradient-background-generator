@@ -32,7 +32,13 @@ h3 {
   padding: 15px 30px;
   border: 2px solid rgba(00, 00, 0, 0.5);
   border-radius: 10px;
+  transition: all 1s;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;  
 }
+
+
 
 .button:hover {
   color: rgb(233, 231, 231);
@@ -56,7 +62,7 @@ input {
 .fa-facebook-square {
   transition: color 600ms ease-in-out;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 19px;
+  font-size: 30px;
 }
 
 .fa-facebook-square:hover {
@@ -68,14 +74,14 @@ input {
   background: none;
   transition: color 600ms ease-in-out;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 19px;
+  font-size: 30px;
 }
 
 /* twitter */
 .fa-twitter-square {
   transition: color 600ms ease-in-out;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 19px;
+  font-size: 30px;
 }
 
 .fa-twitter-square:hover {
@@ -85,7 +91,7 @@ input {
 .fa-instagram {
   transition: color 600ms ease-in-out;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 19px;
+  font-size: 30px;
 }
 
 .fa-instagram:hover {
@@ -95,7 +101,7 @@ input {
 .fa-github {
   transition: color 600ms ease-in-out;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 19px;
+  font-size: 30px;
 }
 
 .fa-github:hover {
@@ -105,7 +111,7 @@ input {
 .fa-globe {
   transition: color 600ms ease-in-out;
   color: rgba(0, 0, 0, 0.7);
-  font-size: 19px;
+  font-size: 30px;
 }
 
 .fa-globe:hover {
