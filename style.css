@@ -5,7 +5,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5em;
   top: 15%;
-  background: linear-gradient(to right, red, yellow); /* Standard syntax */
+  background: linear-gradient(to right, red, yellow);
+  /* Standard syntax */
 }
 
 h1 {
@@ -17,6 +18,7 @@ h1 {
   width: 100%;
   margin-top: 35px;
   margin-bottom: 60px;
+  text-shadow: 5px 5px white;
 }
 
 h3 {
